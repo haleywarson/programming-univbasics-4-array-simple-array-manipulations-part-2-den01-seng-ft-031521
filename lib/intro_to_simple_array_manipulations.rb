@@ -10,12 +10,12 @@ def using_uniq(array)
   array.uniq()
 end
 
-def using_flatten(array1, array2)
-  array.flatten(array1, array2)
+def using_flatten(array)
+  array.flatten()
 end
 
-def using_delete(array1, array2)
-  array.concat(array1, array2)
+def using_delete(array, string)
+  array.delete()
 end
 
 def using_delete_at(array1, array2)
